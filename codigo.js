@@ -22,11 +22,12 @@ function encriptar() {
     } else if (text[index] == "u") {
       salida = salida + "but";
     } else {
-      alert("Para encriptar debe introducir solo letras!");
+      alert("Para encriptar debe introducir solo vocales en minúsculas!");
       break;
     }
   }
   document.getElementById("salida").innerHTML = salida;
+  reset();
 }
 
 function desencriptar() {
@@ -50,7 +51,8 @@ function desencriptar() {
     }
   }
   document.getElementById("salida").innerHTML = salida;
-  
+  reset();
+
 }
 
 function copiar() {
@@ -65,6 +67,6 @@ function resetear() {
   location.reload();
 }
 function reset(){
-document.getElementById("salida").style.border = "1px solid white";
+document.getElementById("salida").style.border = "1px solid";
   document.getElementById("copiar").value = "Copiar";
 }

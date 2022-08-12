@@ -1,8 +1,7 @@
 body{
     
     background-image: linear-gradient(to right, rgba(56, 37, 65, 0), rgb(58, 10, 85));
-
-
+vertical-align: top;
 }
 #mydiv{
     background-color:#80b3ff;
@@ -44,3 +43,5 @@ background-color: #80b3ff;
 #resetear{
     background-color:#F8AD0E;
 }
+
+
