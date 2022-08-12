@@ -2,10 +2,12 @@ body{
     
     background-image: linear-gradient(to right, rgba(56, 37, 65, 0), rgb(58, 10, 85));
 
-    align-items: center;
+
 }
-canvas{
+#mydiv{
     background-color:#80b3ff;
+    height:400px;
+    width:300px;
     border-radius: 15px;
     position: absolute;
    
@@ -14,8 +16,7 @@ canvas{
     transform: translate(-50%,-30%);
     box-shadow: inset;
     border: 1px solid;
-    
-
+  
 }
 h1{
     position:absolute;
@@ -24,4 +25,22 @@ h1{
     transform: translate(-50%,0%);
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+textarea{
+    resize: none;
+    border-radius: 5px;
+}
+
+input{
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+input:hover{
+background-color: #80b3ff;
+}
+#resetear{
+    background-color:#F8AD0E;
 }

@@ -10,6 +10,21 @@
 <body>
     <h1>Encriptador de palabras </h1>
     <script src="codigo.js"></script>
-    <canvas height="400" width="300" id="mycanvas"></canvas>
+   
+
+    <div  id="mydiv">
+        <center><h2>Digite una palabra</h2>
+        <textarea name="" id="textarea1" cols="30" rows="5" placeholder="Escriba una secuencia de caracteres"></textarea>
+        <input type="button" value="Encriptar" onclick="encriptar()">
+        <input type="button" value="Desencriptar" onclick="desencriptar()">
+        <hr>
+        <textarea name="" id="salida" cols="30" rows="5" placeholder="Aquí se mostrará el resultado"></textarea>
+        
+        <input type="button" value="Copiar" onclick="copiar()" id="copiar">
+        <br>
+        <input type="button" id="resetear" value="Resetear" onclick="resetear()">
+        
+    </center>
+    </div>
 </body>
 </html>
