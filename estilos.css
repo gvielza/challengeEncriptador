@@ -42,6 +42,16 @@ background-color: #80b3ff;
 }
 #resetear{
     background-color:#F8AD0E;
+    padding: 3px;
+}
+/* Mobile */
+@media (max-width:900px) {
+    h1{
+        font-size: medium;
+        margin-top: -4px;
+    }
+   
+    
 }
 
 
